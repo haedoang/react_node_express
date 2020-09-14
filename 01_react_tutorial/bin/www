@@ -1,0 +1,43 @@
+
+
+var app = require('../server/app').default;
+var http = require('http');
+//var debug = require('debug')('synchescort:server'); ?? 모르겠셈;;
+
+var port = normalizePort(process.env.SERVER_PORT || '8080');
+app.set('port', port);
+
+var server = http.createServer(app);
+//var socketServer = new SocketServer(server);
+
+server.listen(port);
+server.on('listening', onListening);
+
+function normalizePort(val) {
+  var port = parseInt(val, 10);
+
+  if (isNaN(port)) {
+    // named pipe
+    return val;
+  }
+
+  if (port >= 0) {
+    // port number
+    return port;
+  }
+
+  return false;
+}
+
+
+/**
+ * Event listener for HTTP server "listening" event.
+ */
+
+function onListening() {
+  var addr = server.address();
+  var bind = typeof addr === 'string'
+    ? 'pipe ' + addr
+    : 'port ' + addr.port;
+  //debug('Listening on ' + bind);
+}
