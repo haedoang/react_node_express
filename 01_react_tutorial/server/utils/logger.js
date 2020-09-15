@@ -26,10 +26,6 @@ var _path2 = _interopRequireDefault(_path);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//console.log(path.join(__dirname));
-//console.log(path.join(__dirname,"../"));
-//console.log(path.join(__dirname,"../../"));
-//console.log(path.join(__dirname,"../../.env"));
 require('dotenv').config({ path: _path2.default.join(__dirname, "../../.env") });
 var combine = _winston.format.combine,
     timestamp = _winston.format.timestamp,

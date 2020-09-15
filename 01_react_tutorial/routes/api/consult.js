@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 
-router.get('/',(req,res)=>{res.send('qna')})
+router.get('/',(req,res)=>{res.send('consult')})
 
 
 module.exports = router;

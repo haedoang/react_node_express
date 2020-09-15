@@ -20,19 +20,22 @@ var _logger = require('./utils/logger');
 
 var _logger2 = _interopRequireDefault(_logger);
 
+var _mysql = require('./utils/db/mysql');
+
+var _mysql2 = _interopRequireDefault(_mysql);
+
+var _test = require('./utils/db/test');
+
+var _test2 = _interopRequireDefault(_test);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var app = (0, _express2.default)();
 
 app.use('/api', _index2.default);
 
-//app.set('trust proxy','127.0.0.1'); ?
-
-var env = app.get('env');
 var penv = process.env;
-
-console.log('!!');
-console.log('env: ', env);
-console.log('penv: ', penv);
+console.dir(_mysql2.default);
+_mysql2.default.initialize(penv);
 
 exports.default = app;

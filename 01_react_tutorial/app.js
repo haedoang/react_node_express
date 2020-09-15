@@ -2,19 +2,16 @@ import express from 'express';
 import api from './routes/index';
 import path from 'path';
 import logger from './utils/logger';
+import MySQL from './utils/db/mysql';
+import Test from './utils/db/test';
+
 const app = express();
 
 app.use('/api',api);
 
-//app.set('trust proxy','127.0.0.1'); ?
-
-let env = app.get('env');
 let penv = process.env;
-
-console.log('!!')
-console.log('env: ', env);
-console.log('penv: ', penv);
-
+console.dir(MySQL)
+MySQL.initialize(penv);
 
 
 export default app;

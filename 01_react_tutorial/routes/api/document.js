@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 
-router.get('/',(req,res)=>{res.send('board')})
+router.get('/',(req,res)=>{res.send('document')})
 
 
 module.exports = router;
