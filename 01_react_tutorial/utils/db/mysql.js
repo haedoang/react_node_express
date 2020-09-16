@@ -2,8 +2,6 @@ import mysql from 'mysql';
 import dbMigrate from 'db-migrate';
 import colors from 'colors';
 
-
-
 import logger from '../logger';
 
 class MySQL {
