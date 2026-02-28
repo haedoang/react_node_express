@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05433CF02F53080000E2376E /* CatRoad Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 34D75FB52ED48C350009E739 /* CatRoad Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		05FBBF012F52011E00279DB5 /* CatRoadKit in Frameworks */ = {isa = PBXBuildFile; productRef = 05FBBF002F52011E00279DB5 /* CatRoadKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34D75FC52ED48C370009E739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34D75FA92ED48C340009E739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34D75FB42ED48C350009E739;
+			remoteInfo = "CatRoad Watch App";
+		};
+		34D75FCF2ED48C370009E739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34D75FA92ED48C340009E739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34D75FB42ED48C350009E739;
+			remoteInfo = "CatRoad Watch App";
+		};
+		05433CF22F53080000E2376E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34D75FA92ED48C340009E739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34D75FB42ED48C350009E739;
+			remoteInfo = "CatRoad Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05433CF12F53080000E2376E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				05433CF02F53080000E2376E /* CatRoad Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05433CCA2F53072A00E2376E /* CatRoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatRoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D75FB52ED48C350009E739 /* CatRoad Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CatRoad Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D75FC42ED48C370009E739 /* CatRoad Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CatRoad Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D75FCE2ED48C370009E739 /* CatRoad Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CatRoad Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		05433CCB2F53072A00E2376E /* CatRoad */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CatRoad;
+			sourceTree = "<group>";
+		};
+		34D75FB92ED48C350009E739 /* CatRoad Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CatRoad Watch App";
+			sourceTree = "<group>";
+		};
+		34D75FC72ED48C370009E739 /* CatRoad Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CatRoad Watch AppTests";
+			sourceTree = "<group>";
+		};
+		34D75FD12ED48C370009E739 /* CatRoad Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CatRoad Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05433CC72F53072A00E2376E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D75FB22ED48C350009E739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FBBF012F52011E00279DB5 /* CatRoadKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D75FC12ED48C370009E739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D75FCB2ED48C370009E739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34D75FA82ED48C340009E739 = {
+			isa = PBXGroup;
+			children = (
+				34D75FB92ED48C350009E739 /* CatRoad Watch App */,
+				34D75FC72ED48C370009E739 /* CatRoad Watch AppTests */,
+				34D75FD12ED48C370009E739 /* CatRoad Watch AppUITests */,
+				05433CCB2F53072A00E2376E /* CatRoad */,
+				34D75FB02ED48C350009E739 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34D75FB02ED48C350009E739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34D75FB52ED48C350009E739 /* CatRoad Watch App.app */,
+				34D75FC42ED48C370009E739 /* CatRoad Watch AppTests.xctest */,
+				34D75FCE2ED48C370009E739 /* CatRoad Watch AppUITests.xctest */,
+				05433CCA2F53072A00E2376E /* CatRoad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05433CC92F53072A00E2376E /* CatRoad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05433CE82F53072C00E2376E /* Build configuration list for PBXNativeTarget "CatRoad" */;
+			buildPhases = (
+				05433CC62F53072A00E2376E /* Sources */,
+				05433CC72F53072A00E2376E /* Frameworks */,
+				05433CC82F53072A00E2376E /* Resources */,
+				05433CF12F53080000E2376E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05433CF32F53080000E2376E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				05433CCB2F53072A00E2376E /* CatRoad */,
+			);
+			name = CatRoad;
+			packageProductDependencies = (
+			);
+			productName = CatRoad;
+			productReference = 05433CCA2F53072A00E2376E /* CatRoad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34D75FB42ED48C350009E739 /* CatRoad Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D75FD82ED48C370009E739 /* Build configuration list for PBXNativeTarget "CatRoad Watch App" */;
+			buildPhases = (
+				34D75FB12ED48C350009E739 /* Sources */,
+				34D75FB22ED48C350009E739 /* Frameworks */,
+				34D75FB32ED48C350009E739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				34D75FB92ED48C350009E739 /* CatRoad Watch App */,
+			);
+			name = "CatRoad Watch App";
+			packageProductDependencies = (
+				05FBBF002F52011E00279DB5 /* CatRoadKit */,
+			);
+			productName = "CatRoad Watch App";
+			productReference = 34D75FB52ED48C350009E739 /* CatRoad Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34D75FC32ED48C370009E739 /* CatRoad Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D75FDF2ED48C370009E739 /* Build configuration list for PBXNativeTarget "CatRoad Watch AppTests" */;
+			buildPhases = (
+				34D75FC02ED48C370009E739 /* Sources */,
+				34D75FC12ED48C370009E739 /* Frameworks */,
+				34D75FC22ED48C370009E739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34D75FC62ED48C370009E739 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				34D75FC72ED48C370009E739 /* CatRoad Watch AppTests */,
+			);
+			name = "CatRoad Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "CatRoad Watch AppTests";
+			productReference = 34D75FC42ED48C370009E739 /* CatRoad Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34D75FCD2ED48C370009E739 /* CatRoad Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D75FE22ED48C370009E739 /* Build configuration list for PBXNativeTarget "CatRoad Watch AppUITests" */;
+			buildPhases = (
+				34D75FCA2ED48C370009E739 /* Sources */,
+				34D75FCB2ED48C370009E739 /* Frameworks */,
+				34D75FCC2ED48C370009E739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34D75FD02ED48C370009E739 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				34D75FD12ED48C370009E739 /* CatRoad Watch AppUITests */,
+			);
+			name = "CatRoad Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "CatRoad Watch AppUITests";
+			productReference = 34D75FCE2ED48C370009E739 /* CatRoad Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34D75FA92ED48C340009E739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					05433CC92F53072A00E2376E = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					34D75FB42ED48C350009E739 = {
+						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
+					};
+					34D75FC32ED48C370009E739 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 34D75FB42ED48C350009E739;
+					};
+					34D75FCD2ED48C370009E739 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 34D75FB42ED48C350009E739;
+					};
+				};
+			};
+			buildConfigurationList = 34D75FAC2ED48C340009E739 /* Build configuration list for PBXProject "CatRoad" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ko,
+				"zh-Hans",
+				es,
+				ja,
+				fr,
+				de,
+				"pt-BR",
+				Base,
+			);
+			mainGroup = 34D75FA82ED48C340009E739;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				05FBBEFF2F52011E00279DB5 /* XCLocalSwiftPackageReference "Packages/CatRoadKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 34D75FB02ED48C350009E739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34D75FB42ED48C350009E739 /* CatRoad Watch App */,
+				34D75FC32ED48C370009E739 /* CatRoad Watch AppTests */,
+				34D75FCD2ED48C370009E739 /* CatRoad Watch AppUITests */,
+				05433CC92F53072A00E2376E /* CatRoad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05433CC82F53072A00E2376E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D75FB32ED48C350009E739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D75FC22ED48C370009E739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D75FCC2ED48C370009E739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05433CC62F53072A00E2376E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D75FB12ED48C350009E739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D75FC02ED48C370009E739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D75FCA2ED48C370009E739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34D75FC62ED48C370009E739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34D75FB42ED48C350009E739 /* CatRoad Watch App */;
+			targetProxy = 34D75FC52ED48C370009E739 /* PBXContainerItemProxy */;
+		};
+		34D75FD02ED48C370009E739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34D75FB42ED48C350009E739 /* CatRoad Watch App */;
+			targetProxy = 34D75FCF2ED48C370009E739 /* PBXContainerItemProxy */;
+		};
+		05433CF32F53080000E2376E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34D75FB42ED48C350009E739 /* CatRoad Watch App */;
+			targetProxy = 05433CF22F53080000E2376E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05433CE92F53072C00E2376E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = MC6T74BLQB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cat Road";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.racing-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haedoang.catroad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05433CEA2F53072C00E2376E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = MC6T74BLQB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cat Road";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.racing-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haedoang.catroad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34D75FD62ED48C370009E739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MC6T74BLQB;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34D75FD72ED48C370009E739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MC6T74BLQB;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		34D75FD92ED48C370009E739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = MC6T74BLQB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CatRoad;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.haedoang.catroad;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haedoang.catroad.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		34D75FDA2ED48C370009E739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = MC6T74BLQB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CatRoad;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.haedoang.catroad;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haedoang.catroad.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		34D75FE02ED48C370009E739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = MC6T74BLQB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haedoang.catroad.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatRoad Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatRoad Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		34D75FE12ED48C370009E739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = MC6T74BLQB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haedoang.catroad.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatRoad Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatRoad Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		34D75FE32ED48C370009E739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = MC6T74BLQB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haedoang.catroad.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CatRoad Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		34D75FE42ED48C370009E739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = MC6T74BLQB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haedoang.catroad.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CatRoad Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05433CE82F53072C00E2376E /* Build configuration list for PBXNativeTarget "CatRoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05433CE92F53072C00E2376E /* Debug */,
+				05433CEA2F53072C00E2376E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D75FAC2ED48C340009E739 /* Build configuration list for PBXProject "CatRoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D75FD62ED48C370009E739 /* Debug */,
+				34D75FD72ED48C370009E739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D75FD82ED48C370009E739 /* Build configuration list for PBXNativeTarget "CatRoad Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D75FD92ED48C370009E739 /* Debug */,
+				34D75FDA2ED48C370009E739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D75FDF2ED48C370009E739 /* Build configuration list for PBXNativeTarget "CatRoad Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D75FE02ED48C370009E739 /* Debug */,
+				34D75FE12ED48C370009E739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D75FE22ED48C370009E739 /* Build configuration list for PBXNativeTarget "CatRoad Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D75FE32ED48C370009E739 /* Debug */,
+				34D75FE42ED48C370009E739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		05FBBEFF2F52011E00279DB5 /* XCLocalSwiftPackageReference "Packages/CatRoadKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/CatRoadKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		05FBBF002F52011E00279DB5 /* CatRoadKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05FBBEFF2F52011E00279DB5 /* XCLocalSwiftPackageReference "Packages/CatRoadKit" */;
+			productName = CatRoadKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 34D75FA92ED48C340009E739 /* Project object */;
+}

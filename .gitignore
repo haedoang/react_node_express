@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Xcode - 개인 설정 (커밋 불필요)
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+
+# SPM 빌드 결과물
+.build/
+*.o
+*.d
+.swiftpm/
+
+# Xcode DerivedData
+DerivedData/
+
+# Archive / Export 임시 파일
+ExportOptions.plist
+
+# Claude Code 세션 데이터
+.claude/
