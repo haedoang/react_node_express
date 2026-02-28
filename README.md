@@ -44,9 +44,9 @@ open CatRoad.xcodeproj
 
 ### Build & Run
 
-1. Scheme: **CatRoad Watch App** 선택 (상단 좌측)
-2. Destination: **Apple Watch Ultra** 등 시뮬레이터 선택
-3. `Cmd + R` 로 실행
+1. Select scheme: **CatRoad Watch App** (top left)
+2. Select destination: **Apple Watch Ultra** or any Watch simulator
+3. Press `Cmd + R` to run
 
 ### Run Tests (no simulator needed)
 
