@@ -12,6 +12,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		05433CF22F53080000E2376E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34D75FA92ED48C340009E739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34D75FB42ED48C350009E739;
+			remoteInfo = "CatRoad Watch App";
+		};
 		34D75FC52ED48C370009E739 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 34D75FA92ED48C340009E739 /* Project object */;
@@ -20,13 +27,6 @@
 			remoteInfo = "CatRoad Watch App";
 		};
 		34D75FCF2ED48C370009E739 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 34D75FA92ED48C340009E739 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 34D75FB42ED48C350009E739;
-			remoteInfo = "CatRoad Watch App";
-		};
-		05433CF22F53080000E2376E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 34D75FA92ED48C340009E739 /* Project object */;
 			proxyType = 1;
@@ -352,6 +352,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		05433CF32F53080000E2376E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34D75FB42ED48C350009E739 /* CatRoad Watch App */;
+			targetProxy = 05433CF22F53080000E2376E /* PBXContainerItemProxy */;
+		};
 		34D75FC62ED48C370009E739 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 34D75FB42ED48C350009E739 /* CatRoad Watch App */;
@@ -361,11 +366,6 @@
 			isa = PBXTargetDependency;
 			target = 34D75FB42ED48C350009E739 /* CatRoad Watch App */;
 			targetProxy = 34D75FCF2ED48C370009E739 /* PBXContainerItemProxy */;
-		};
-		05433CF32F53080000E2376E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 34D75FB42ED48C350009E739 /* CatRoad Watch App */;
-			targetProxy = 05433CF22F53080000E2376E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

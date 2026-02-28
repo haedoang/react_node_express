@@ -19,7 +19,7 @@ struct ContentView: View {
                     Text("CatRoad")
                         .font(.largeTitle)
                         .fontWeight(.bold)
-                    Text("Apple Watch 전용 게임")
+                    Text("companion_subtitle")
                         .foregroundColor(.secondary)
                 }
                 .padding(.top, 40)
@@ -28,15 +28,15 @@ struct ContentView: View {
 
                 // How to Play
                 VStack(alignment: .leading, spacing: 16) {
-                    Text("Apple Watch에서 실행하기")
+                    Text("companion_how_to_play")
                         .font(.title2)
                         .fontWeight(.semibold)
 
-                    GuideRow(icon: "applewatch", step: "1", text: "Apple Watch에서 CatRoad 앱을 실행하세요")
-                    GuideRow(icon: "hand.tap", step: "2", text: "화면을 탭하여 게임을 시작하세요")
-                    GuideRow(icon: "digitalcrown.arrow.clockwise", step: "3", text: "Digital Crown을 돌려 고양이를 이동하세요")
-                    GuideRow(icon: "hand.draw", step: "4", text: "화면을 드래그해도 이동할 수 있어요")
-                    GuideRow(icon: "exclamationmark.triangle", step: "5", text: "장애물을 피해 최고 점수를 기록하세요!")
+                    GuideRow(icon: "applewatch", step: "1", text: String(localized: "guide_step1"))
+                    GuideRow(icon: "hand.tap", step: "2", text: String(localized: "guide_step2"))
+                    GuideRow(icon: "digitalcrown.arrow.clockwise", step: "3", text: String(localized: "guide_step3"))
+                    GuideRow(icon: "hand.draw", step: "4", text: String(localized: "guide_step4"))
+                    GuideRow(icon: "exclamationmark.triangle", step: "5", text: String(localized: "guide_step5"))
                 }
                 .padding(.horizontal)
 
@@ -44,13 +44,13 @@ struct ContentView: View {
 
                 // Tips
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("Tips")
+                    Text("companion_tips")
                         .font(.title2)
                         .fontWeight(.semibold)
 
-                    TipRow(icon: "speedometer", text: "점수가 올라갈수록 속도가 빨라집니다")
-                    TipRow(icon: "bus.fill", text: "버스 장애물은 크기가 크니 주의하세요")
-                    TipRow(icon: "trophy", text: "최고 점수는 자동으로 저장됩니다")
+                    TipRow(icon: "speedometer", text: String(localized: "tip_speed"))
+                    TipRow(icon: "bus.fill", text: String(localized: "tip_bus"))
+                    TipRow(icon: "trophy", text: String(localized: "tip_highscore"))
                 }
                 .padding(.horizontal)
 
